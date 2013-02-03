@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1"/>
+    <meta name="description" content="Ace Gardens"/>
+    <meta name="keywords" content="Gardens, Gardening">
+
+	<!-- CSS -->
+
+	<!--sliding pages -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/slider/liquid-slider-1.1.css"/>
+
+    <!-- gallery -->
+    <link href="css/gallery/shCore.css" rel="stylesheet" type="text/css"/>
+    <link href="css/gallery/shThemeDefault.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/gallery/flexslider.css" type="text/css" media="screen"/>
+
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen"/>
+
+	<!-- JAVACRIPT -->
+	
+	<!--sliding pages -->
+    <script src="js/slider/jquery-1.8.2.min.js"></script>
+    <script src="js/slider/jquery-ui-1.8.20.custom.min.js"></script>
+    <script src="js/slider/jquery.liquid-slider-1.1.js"></script>
+
+    <!-- gallery -->
+    <script src="js/gallery/modernizr.js"></script>
+
+
+
+	
+    <title>Ace Gardens</title>
+
+</head>
+
+
+<body class='no-js' style="margin:0 auto">
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+
+<div class="everything">
+
+    <div class="headcontent"></div>
+
+	<div class="liquid-slider" id="slider-id">
+
+	    <div> <!-- start page 1 -->
+	        <h2 class="title" style="display:none">Home</h2>
+	        <div class="maincontent">
+			    <div class="right" >
+				    <div class="gallery" >
+					    <section class="slider">
+						    <div class="flexslider">
+							    <ul class="slides" >
+							    	<li><img src="img/gardening/image1.jpg" height="315px" width="500px" /></li>
+									<li><img src="img/gardening/image2.jpg" height="315px" width="500px" /></li>
+									<li><img src="img/gardening/image3.jpg" height="315px" width="500px" /></li>
+
+							    </ul>
+						   </div><!-- close flexslider -->
+					    </section>
+				     </div>    <!-- close gallery -->
+			    </div><!--close right -->
+		    	<div class="left">
+		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor hendrerit dui in blandit. Sed quis justo ligula. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla elementum sagittis feugiat. Mauris non urna nunc. Aliquam eget lacus a nisi egestas dignissim at eget velit. Suspendisse consequat mi sit amet lectus eleifend eleifend. Praesent quis nisl augue. Morbi cursus enim id magna dictum feugiat ornare sem adipiscing. Proin augue risus, dapibus at congue a, placerat euismod magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque vel mauris in enim pulvinar pulvinar eu eu lectus. Donec et ipsum ipsum, et tempus neque. Maecenas id cursus risus. Nam eget felis quis nunc malesuada feugiat. Etiam quis lectus congue leo placerat cursus id faucibus lacus.
+
+Nullam arcu risus, porttitor ut elementum in, pharetra in urna. Duis molestie feugiat mi, et facilisis eros consequat eget. Ut eget enim libero, at adipiscing mauris. Maecenas adipiscing, ipsum a sollicitudin faucibus, metus dui ultrices orci, ut laoreet sapien lectus eget leo. Cras dapibus, elit vel molestie aliquet, dui erat commodo augue, sed viverra nisl eros a massa. Etiam molestie mattis neque id feugiat. Cras lacinia, nisi ut ultrices ullamcorper, eros magna tincidunt dui, vel iaculis ligula tortor at arcu. Ut quis elit ut augue fermentum vestibulum. Ut sem enim, dictum vitae mattis non, aliquet quis nisl.
+
+
+</p>
+		           </div><!--close left -->
+	        	</div><!-- close main content -->
+	    </div><!-- finish page 1 -->
+	    
+	    <div><!-- start page 3-->
+	        <h2 class="title" display:none>Contact Us</h2>
+	        <p>
+	           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor hendrerit dui in blandit. Sed quis justo ligula. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla elementum sagittis feugiat. Mauris non urna nunc. Aliquam eget lacus a nisi egestas dignissim at eget velit. Suspendisse consequat mi sit amet lectus eleifend eleifend. Praesent quis nisl augue. Morbi cursus enim id magna dictum feugiat ornare sem adipiscing. Proin augue risus, dapibus at congue a, placerat euismod magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque vel mauris in enim pulvinar pulvinar eu eu lectus. Donec et ipsum ipsum, et tempus neque. Maecenas id cursus risus. Nam eget felis quis nunc malesuada feugiat. Etiam quis lectus congue leo placerat cursus id faucibus lacus.
+	            <br/>
+	            Contact:<br/>
+
+	            London:<br/>
+	            Email:<br>
+	        </p>
+	    </div><!-- finish page 3-->
+	</div><!-- Liquid Slider Ends Here -->
+
+
+
+
+	<div class="footcontent">
+
+	</div><!-- close footcontent -->
+</div><!-- close everything -->
+
+
+
+<!-- start gallery-->
+<!-- jQuery -->
+
+
+
+<!-- Preloader -->
+<script type="text/javascript">
+    //<![CDATA[
+        $(window).load(function() { // makes sure the whole site is loaded
+            $("#status").fadeOut(); // will first fade out the loading animation
+            $("#preloader").delay(350).fadeOut("slow"); // will fade out the white DIV that covers the website.
+        })
+    //]]>
+</script>
+
+
+<!-- FlexSlider -->
+<script defer src="js/gallery/jquery.flexslider.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        SyntaxHighlighter.all();
+    });
+    $(window).load(function () {
+        $('.flexslider').flexslider({
+            animation: "slide",
+            start: function (slider) {
+                $('body').removeClass('loading');
+            }
+        });
+    });
+</script>
+
+
+	<!-- sliding pages script -->
+    <script type="text/javascript">
+        $(function () {
+            $('.liquid-nav li a').live('click', function(){
+                $('.panel-wrapper').animate({opacity:0.1});
+            });
+            /* Here is the slider using default settings */
+            $('#slider-id').liquidSlider({
+                slideEaseFunction: 'easeOutExpo',
+                slideEaseDuration: 1000,
+                callbackFunction: function(){$('.panel-wrapper').animate({opacity:1});},
+                dynamicArrows: false
+            });
+        });
+    </script>
+    
+    
+    
+
+<!--twitter -->
+    
+    <script>!function(d,s,id){
+    var js,fjs=d.getElementsByTagName(s)[0];
+    if(!d.getElementById(id)){js=d.createElement(s);
+    js.id=id;js.src="http://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js,fjs);
+    }}
+    (document,"script","twitter-wjs");
+    </script>
+
+
+
+<!-- Syntax Highlighter -->
+<script type="text/javascript" src="js/gallery/shCore.js"></script>
+<script type="text/javascript" src="js/gallery/shBrushXml.js"></script>
+<script type="text/javascript" src="js/gallery/shBrushJScript.js"></script>
+
+<!-- Optional FlexSlider Additions -->
+<script src="js/gallery/jquery.easing.js"></script>
+<script src="js/gallery/jquery.mousewheel.js"></script>
+<script defer src="js/gallery/demo.js"></script>
+
+<!-- end gallery-->
+</body>
+</html>
